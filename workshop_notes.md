@@ -25,40 +25,10 @@
 * HTML is written with elements that have important meaning. All of our content has to live within the right elements in order to be understood by the browser, so creating a solid structure or foundation in our document is an excellent first step. 
 * Most elements require both an opening and closing tag, with the content written within these tags. 
 
-## HTML Intro: Planning a Structure 
-* Once we know what we want to create we can start mapping out the site and building our structure with HTML. 
-* Within the `<body>` element of the file we will have several additional elements to nest inside to prepare to add content into. 
-* Nesting refers to the act of indenting when placing an element inside of another element; so the outer element contains the indented element, and so on. 
-
-## HTML: Adding Content *(Longest Section)* 
-* Containers. We heard about these briefly so far but we will be creating more and more containers as we nest more elements inside each other to include our content. 
-* Full Preview: So while we previously added a header, main, and footer, we now need to further nest (or indent!) additional elements within these ones. 
-
-### Header
-* For example, within our header we need a heading and an image, requiring a heading and an image element. 
-* We need to get “Welcome to Tuts+ Town” on the page, which is the website’s main heading.
-* There are six different levels of headings for a site; `h1` is the most important, `h6` is the least important. In HTML the text for headings is written within heading elements:`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, or `<h6>`.
-* IMAGES: We are using images that are on the web already. In order to include these images on our site we need to call on them through the `<img>` element and include the URL to the particular image we want.
-* Within the opening tag of this element we will add an attribute that specifies where to get the image we want to include. Attributes are things we can add to elements which help further explain them, or tell them how to work. Only certain attributes work within certain elements. An `<img>` element will always have a src and an alt attribute.
-* Important! An `<img>` element is self-closing. This just means that the opening tag is also the closing tag : `/>`
-
-### Main
-* The main section of our website includes the bulk of the information. We’ll contain all the super useful content about our town within this <main> element, which we have already included. 
-* We have three related groups on our website that we will organize into three sections. A section is a standalone piece of a website that contains information and also has its own element: `<section>`.
-* More Structuring! Within our sections we have more smaller frames to build, like containers for the small bits of text next to the images. Each section has a nested image and and an element that contains some text.
-* Let’s take a look at our base markup before we add content!
-* We talked about adding images a bit already so let’s look at what an unordered list looks like 
-* Now, when we put all this together each section is going follow the same structure with slightly different content. 
-
-### Footer
-* Our footer is the first element after the closing of main; so it’s not nested inside of it!
-* The only content we have within our footer is a sentence about who made our site (we did!). This content will be wrapped within a `<p>` (paragraph) element that is nested within the footer.
-
 ## Full Preview
-* So we don’t have a background-color and everything is left aligned by default, but all our content is there! 
+* So we don’t have a background-color and everything is left aligned by default, but our text and images are there! 
 * Practice time!
-* *Review all content* 
-* So while someone could totally use our site at this point, but let’s dive into some CSS basics to make this look a bit better. 
+* (practice adding a heading, paragraphs, and images without talking about nesting)
 
 ## CSS Intro: Properties & Values
 * Just as with HTML, CSS needs to be written in the correct way in order to work. 
@@ -74,10 +44,11 @@
 * All colors have a hex number to match. So while browsers do not understand many colors when they are written out, they do understand hex numbers very well. The hex number for our light yellow color is `#FAF8DA` 
 * Practice Time! 
 
-## CSS: Sizing *(Time permitting!)*
+## CSS: Sizing 
 * We also have the power to change the sizing of text and images with CSS. There are lots of units of measurement that can be recognized by the browser, but we are going to work with pixels, which is basically dots filled with color on the screen. 
 * If we take a look at our header again we may find that we need to make changes to the size and color of our primary heading and image. 
-* The first thing we will want to do here is add class to these elements in our HTML….we can then save this and then hop over to our CSS, target these classes, and declare some sizing specifics; and change the font color while we are at it to the Tuts+ Town blue used throughout the project. 
+* The first thing we will want to do here is add class to these elements in our HTML
+* Now in CSS was can target this class name and declare sizing
 
 ## Where To Go From Here!
 * Review what we learned today
