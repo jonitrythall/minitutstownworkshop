@@ -5,12 +5,12 @@
 * For example, while some designers are completely focused on a user’s experience of a site, others are tasked with actually building these designs with code, which is what we are going to focus on today.  
 
 ## How The Web Works
-* Now, since we are going to build a website that will eventually be accessible through the Internet it’s helpful to have a general idea of how the web works. 
+* Now, since the Internet is our medium here it’s helpful to have a general idea of how the it works. 
 * When two computers are connected to the Internet (which is shown as a yellow line in the picture below) they can talk to each other.
 * A server (the blue box) is a special computer that contains web page files. Your computer at home or school is not a server, because it is not connected directly to the Internet. We connect to the Internet through an Internet Service Provider (ISP).
 * A site’s content (all that stuff a website talks about) is organized within a special set of rules that computers understand; sort of like speaking in a secret, coded language, except we will soon be in on this little secret as well!
 * In this picture the browser is asking to view www.tutsplus.com from the server where the site’s files live. The server is sending the files back and the browser is translating them to display a page on the screen. And this happens very quickly!
-* Because of all this, a site you write locally (on your computer) can’t be seen by other people on a different computer, until you move the files to a server. 
+* Because of all this, a site you write locally (on your computer) can’t be seen by other people on a different computer, until you move the files to a server; with CodePen our work in instantly accessible on the web. 
 
 ## Quick Note on Files 
 * A website is just a bunch of connected files. 
