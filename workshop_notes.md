@@ -1,31 +1,24 @@
-# Tuts+ Town Workshop
+# Mini Tuts+ Town Workshop
 
 ## Getting Started: What is Web Design Exactly?
-* Well, it’s tricky….it can mean a lot of different things and it’s not uncommon for 2 web designers to have few overlapping skillsets. 
+* Well, it’s tricky. It can mean a lot of different things and it’s not uncommon for 2 web designers to have few overlapping skillsets. 
 * For example, while some designers are completely focused on a user’s experience of a site, others are tasked with actually building these designs with code, which is what we are going to focus on today.  
 
 ## How The Web Works
-* Now, since the Internet is our medium here it’s helpful to have a general idea of how the it works. 
+* Now, since we are creating something on the web it’s helpful to have a general idea of what it is and how it works. 
 * When two computers are connected to the Internet (which is shown as a yellow line in the picture below) they can talk to each other.
 * A server (the blue box) is a special computer that contains web page files. Your computer at home or school is not a server, because it is not connected directly to the Internet. We connect to the Internet through an Internet Service Provider (ISP).
 * A site’s content (all that stuff a website talks about) is organized within a special set of rules that computers understand; sort of like speaking in a secret, coded language, except we will soon be in on this little secret as well!
 * In this picture the browser is asking to view www.tutsplus.com from the server where the site’s files live. The server is sending the files back and the browser is translating them to display a page on the screen. And this happens very quickly!
-* Because of all this, a site you write locally (on your computer) can’t be seen by other people on a different computer, until you move the files to a server; with CodePen our work in instantly accessible on the web. 
-
-## Quick Note on Files 
-* A website is just a bunch of connected files. 
-* It’s essential that all the files for our project live in the same folder so that the browser can access them. 
-
-## Folders: Our Structure (Let’s open up our folders!)
-* For our website we have an HTML and CSS file with an images folder containing 4 images. 
-* The “file extension” references to the descriptive letters that come after the period in a file name. 
+* Because of all this, a site you write locally (on your computer) can’t be seen by other people on a different computer, until you move the files to a server.
+* Luckily we will be using an online tool that will allow us to skip over this folder structure part today (but basically a website is just a bunch of connected files that must live in the same folder). 
 
 ## What is HTML and CSS?
 * Hypertext markup language is a way of structuring a document in a way that the browser can understand. For example, we will learn that we can’t just type up a paragraph in our text editors and expect the browser to understand what it is; we have to put it in a paragraph element!
 * Cascading style sheets is a separate document that allows us to style our HTML document by adding coloring and moving things around in a more appealing and usable way. 
 
 ## Linking These Two Files
-* In order for our CSS to impact our HTML they have to be properly linked together, which you can see has already been done at the top of our HTML document. 
+* In order for our CSS to impact our HTML they have to be properly linked together, which is taken care of for us with CodePen. 
 
 ## HTML Intro: Syntax & Structure Basics
 * This is what HTML looks like! 
@@ -45,9 +38,10 @@
 * For example, within our header we need a heading and an image, requiring a heading and an image element. 
 * We need to get “Welcome to Tuts+ Town” on the page, which is the website’s main heading.
 * There are six different levels of headings for a site; `h1` is the most important, `h6` is the least important. In HTML the text for headings is written within heading elements:`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, or `<h6>`.
-* IMAGES: In our project’s folder we have an images folder. In order to include these images on our site we need to call on them through the `<img>` element and include a path to the particular image we want
+* IMAGES: We are using images that are on the web already. In order to include these images on our site we need to call on them through the `<img>` element and include the URL to the particular image we want.
 * Within the opening tag of this element we will add an attribute that specifies where to get the image we want to include. Attributes are things we can add to elements which help further explain them, or tell them how to work. Only certain attributes work within certain elements. An `<img>` element will always have a src and an alt attribute.
 * Important! An `<img>` element is self-closing. This just means that the opening tag is also the closing tag : `/>`
+
 ### Main
 * The main section of our website includes the bulk of the information. We’ll contain all the super useful content about our town within this <main> element, which we have already included. 
 * We have three related groups on our website that we will organize into three sections. A section is a standalone piece of a website that contains information and also has its own element: `<section>`.
@@ -92,4 +86,4 @@
 * Review what rest of series will cover 
 	* The rest of this series will cover the remaining CSS styling and layout required to complete the site, and also touches on things like typography, color theory, and some general design concepts we didn’t have time to go over today. 
 * Provide link to [the Tuts+ Town full curriculum](http://webdesign.tutsplus.com/series/web-design-for-kids--cms-823)
-* Provide [link to reference site](http://tutsplustown.com/reference). 
+* Provide link to reference site. 
