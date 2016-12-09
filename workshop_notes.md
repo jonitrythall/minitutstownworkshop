@@ -21,7 +21,6 @@
 * In order for our CSS to impact our HTML they have to be properly linked together, which is taken care of for us with CodePen. 
 
 ## HTML Intro: Syntax & Structure Basics
-* This is what HTML looks like! 
 * HTML is written with elements that have important meaning. All of our content has to live within the right elements in order to be understood by the browser, so creating a solid structure or foundation in our document is an excellent first step. 
 * Most elements require both an opening and closing tag, with the content written within these tags. 
 
@@ -47,8 +46,8 @@
 ## CSS: Sizing 
 * We also have the power to change the sizing of text and images with CSS. There are lots of units of measurement that can be recognized by the browser, but we are going to work with pixels, which is basically dots filled with color on the screen. 
 * If we take a look at our header again we may find that we need to make changes to the size and color of our primary heading and image. 
-* The first thing we will want to do here is add class to these elements in our HTML
-* Now in CSS was can target this class name and declare sizing
+* The first thing we will want to do here is add class to these elements in our HTML, or perhaps target them directly.
+* Now in CSS was can target this class name and declare sizing.
 
 ## Where To Go From Here!
 * Review what we learned today
