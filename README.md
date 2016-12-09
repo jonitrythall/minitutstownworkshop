@@ -1,9 +1,7 @@
 # Mini Tuts+ Town Workshop
 A slightly shorter version of [Tuts+ Town Workshop for Kids](https://github.com/jonitrythall/tutstownworkshop) with the primary change being the use of CodePen over traditional local file structures. 
 
-Resources and materials for an in person 1.5 hour middle school web design workshop based on the Tuts+ Town curriculum for kids.
-
-Read more about this curriculum and some general advice on conducting workshops [here](#).
+Resources and materials for an in person 1.5 hour middle school web design workshop based on the Tuts+ Town curriculum for kids. Read more about this curriculum and some general advice on conducting workshops [here](#).
 
 **Title**: Mini Web Design Workshop: Creating Our First Website<br>
 **Grade Level**: 6-8<br>
